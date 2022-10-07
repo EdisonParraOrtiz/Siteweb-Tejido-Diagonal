@@ -1,0 +1,20 @@
+.inicio-wrap {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.contenido {
+  display: grid;
+  grid-template-rows: minmax(20vh, 80vh) auto repeat(2, 100vh);
+  row-gap: 10vh;
+  padding-top: 20vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 0.3) 0%,
+    rgba(252, 70, 107, 0.3) 100%
+  );
+}

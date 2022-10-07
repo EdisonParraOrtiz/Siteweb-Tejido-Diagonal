@@ -1,0 +1,41 @@
+.logo-image {
+  position: fixed;
+  margin-left: 3vw;
+  margin-top: 2vh;
+}
+
+.logo-image > a > img {
+  width: 20vw;
+}
+
+.menu-wrap {
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 15vw;
+  background: rgb(131, 11, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 11, 162, 1) 30%,
+    rgba(131, 11, 162, 0.75) 60%,
+    rgba(131, 11, 162, 0.5) 100%
+  );
+}
+
+.menu-wrap > a {
+  color: beige;
+  text-align: center;
+  height: auto;
+  padding: 4vh 4vw 4vh 4vw;
+  font-size: 20px;
+  transition: 0.3s ease-in;
+}
+
+.menu-wrap > a:hover {
+  padding: 5vh 5vw 5vh 5vw;
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 0.1vw solid beige;
+  border-right: 0.1vw solid beige;
+}
